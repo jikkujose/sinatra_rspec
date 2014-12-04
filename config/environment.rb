@@ -10,3 +10,5 @@ Bundler.require :default
 Bundler.require Sinatra::Base.environment
 
 $db = []
+
+require './app/todo_api'
