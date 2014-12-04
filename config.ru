@@ -1,3 +1,3 @@
 require './config/environment'
 
-run Rack::URLMap.map '/' => TodoAPI
+run Rack::URLMap.new('/' => TodoAPI)
